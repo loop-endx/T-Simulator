@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My First Web Page</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self';
+	<link rel=" stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+	<h1>Hello World</h1>
+	<p>Current theme source <strong id="theme-source">System</strong></p>
+
+	<button id="toggle-dark-mode">Toggle Dark Mode</button>
+	<button id="reset-to-system">Reset to System Theme</button>
+
+	<script src="renderer.js"></script>
+</body>
+
+</html>
